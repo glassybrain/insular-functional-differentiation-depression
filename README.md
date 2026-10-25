@@ -23,18 +23,13 @@ Structure
 The folders are numbered in the order of the analysis pipeline. Each folder contains a
 README.txt that describes the scripts, their inputs and outputs, and which data are included.
 
-0 - Preprocessing              preprocessing, denoising and smoothing of the fMRI data; quality
-                               control and covariates
-1 - Functional connectivity    seed-to-voxel FC maps of the insular and temporal subregions
-2 - Similarity                 similarity of the subregional FC profiles per participant
-3 - AIC_PIC_Analysis           full factorial model Group x Subregion (AIC, PIC); AIC-PIC
-                               similarity (Figure 2)
-4 - Subregion analysis         linear mixed-effects models of similarity type x group,
-                               sensitivity analyses (Figure 3A, Figure S2)
-5 - Shift function             FC density distributions and shift function (Figure 3B-C,
-                               Table S2, Figures S4-S5)
-6 - SVM                        classification of group based on AIC-PIC similarity (Figure 4,
-                               Table S1)
+0 - Preprocessing: preprocessing, denoising and smoothing of the fMRI data; quality control and covariates                          
+1 - Functional connectivity: seed-to-voxel FC maps of the insular and temporal subregions
+2 - Similarity: similarity of the subregional FC profiles per participant
+3 - AIC_PIC_Analysis: full factorial model Group x Subregion (AIC, PIC); AIC-PIC similarity (Figure 2)
+4 - Subregion analysis: linear mixed-effects models of similarity type x group, sensitivity analyses (Figure 3A, Figure S2)
+5 - Shift function: FC density distributions and shift function (Figure 3B-C, Table S2, Figures S4-S5)
+6 - SVM: classification of group based on AIC-PIC similarity (Figure 4, Table S1)
 
 
 
